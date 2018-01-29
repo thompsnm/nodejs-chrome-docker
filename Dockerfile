@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:carbon
 
 RUN apt-get update && \
     apt-get install -y wget && \
